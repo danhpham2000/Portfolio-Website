@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: inline-block;
+    animation: jump 0.5s alternate infinite;
+    
+    
+}
+
+@keyframes jump {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+    
+}
+
+
+
+.container-1 {
+    height: 300px;
+    
+    
+    
+    
+    
+}
+
+.container-2 {
+    height: 300px;
+    
+    
+}
+
+.list-project {
+    margin: auto;
+}
+
+td{
+    border: 10px solid white;
+    width: 300px;
+    
+}
+
+.container-3 {
+    height: 300px;
+   
+    
+    
+}
+
+#contactme {
+    text-decoration: none;
+}
+
