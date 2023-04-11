@@ -35,20 +35,39 @@ body {
 }
 
 .container-2 {
-    height: 300px;
     
     
 }
 
-.list-project {
+.project {
     margin: auto;
 }
 
-td{
-    border: 10px solid white;
-    width: 300px;
+td {
+    border: 30px solid white;
+    background-color: rgb(41, 232, 216);
+    height: 100px;
+    padding-bottom: 100px;
+    
+    background-size: contain;
     
 }
+
+#one {
+    background-image: url("images/loan-applicants.jpeg");
+}
+
+#two {
+    background-image: url("images/credit_fraud.jpeg");
+}
+
+
+
+
+
+
+
+
 
 .container-3 {
     height: 300px;
@@ -59,5 +78,7 @@ td{
 
 #contactme {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
